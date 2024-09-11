@@ -139,7 +139,7 @@
     .frontend-container {
       width: 80%;
       height: auto;
-      margin-left: 13%;
+      margin-left: 10%;
       padding-bottom: 40px;
     }
     .html-experience h3{
@@ -184,7 +184,7 @@
     }
 
     .project-img{
-        margin-left: 6%;
+        margin-left: 5%;
         
         
     }
@@ -192,6 +192,7 @@
     .project-h2{
         margin-left: 32%;
         margin-top: 10px;
+        color: crimson;
     }
   
     .github, .live-demo {
