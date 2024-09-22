@@ -1,7 +1,7 @@
 
   
   
-  @media (max-width: 468px) {
+  @media (max-width: 468px) and (max-width:600px) {
     nav,
     .navigation-bar {
       font-size: 10px;
