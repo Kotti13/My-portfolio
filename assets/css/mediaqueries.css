@@ -404,6 +404,7 @@
       flex-direction: column;
       margin-bottom: 50px;
       gap: 40px;
+      width: 100%;
       
     }
 
@@ -640,7 +641,7 @@
       flex-direction: column;
       margin-bottom: 50px;
       gap: 40px;
-      
+      width: 100%;
     }
 
     .projects-container img {
