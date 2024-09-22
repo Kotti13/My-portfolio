@@ -190,8 +190,12 @@
     }
   
     .github, .live-demo {
-      width: 100px;
-      height: 40px;
+      
+    }
+
+    .button-container-project{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
 
     .contact-me{
@@ -424,10 +428,14 @@
     }
   
     .github, .live-demo {
-      justify-content: space-between;
       
-      margin-left: 23%;
     }
+
+    .button-container-project{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
 
     .contact-me{
         font-size: 40px;
@@ -654,9 +662,12 @@
     }
   
     .github, .live-demo {
-      justify-content: space-between;
       
-      margin-left: 17%;
+    }
+
+    .button-container-project{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
 
     .contact-me{
