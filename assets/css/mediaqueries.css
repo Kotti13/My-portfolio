@@ -166,6 +166,11 @@
       margin-bottom: 50px;
       gap: 40px;
     }
+
+    .projects-container img {
+      margin: auto;
+    
+    }
   
     .project-1, .project-2, .project-3 {
         width: 70%;
@@ -174,7 +179,7 @@
     }
 
     .project-img{
-        margin-left: 6%;
+        margin: auto;
         
         
     }
