@@ -220,7 +220,7 @@
   
   
   
-  @media (min-width: 468px){
+  @media (max-width: 820px){
     nav,
     .navigation-bar {
       font-size: 10px;
@@ -419,14 +419,14 @@
     }
 
     .project-h2{
-        margin-left: 37%;
+        margin-left: 45%;
         margin-top: 10px;
     }
   
     .github, .live-demo {
       justify-content: space-between;
       
-      margin-left: 17%;
+      margin-left: 23%;
     }
 
     .contact-me{
@@ -450,7 +450,7 @@
     }
   }
   
-  @media (min-width: 768px){
+  @media (max-width: 768px){
     nav,
     .navigation-bar {
       font-size: 10px;
