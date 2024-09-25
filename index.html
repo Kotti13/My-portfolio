@@ -7,9 +7,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./assets/css/myportfolio.css">
     <link rel="stylesheet" href="./assets/css/mediaqueries.css">
-
-
-
+    
     <link rel="icon" type="image/x-icon" href="./assets/images/portfolio-icon.png">
 </head>
 
@@ -19,7 +17,7 @@
             
             <ul class="navigation-bar">
                 <li><a href="#about">About</a></li>
-                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Experience">Skill</a></li>
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
@@ -42,9 +40,9 @@
                     <a href="#contact" class="button-2">Contact Info</a>
                 </div>
                 <div id="social-icons">
-                    <a href="https://www.linkedin.com/in/kottai-samy-bb37a9228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon-1"><img src="./assets/images/linkedin.png"
+                    <a target="_blank" href="https://www.linkedin.com/in/kottai-samy-bb37a9228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="icon-1"><img src="./assets/images/linkedin.png"
                             alt="linkedin logo" height="50"></a>
-                    <a href="https://github.com/Kotti13" class="icon-2"><img src="./assets/images/github.png" alt="github logo"
+                    <a target="_blank" href="https://github.com/Kotti13" class="icon-2"><img src="./assets/images/github.png" alt="github logo"
                             height="50"></a>
                 </div>
             </div>
@@ -71,7 +69,7 @@
 
             </div>
         </div>
-            <div class="about-content">I am frontend-developer .I will help you build beautiful websites your users will
+            <div class="about-content">I am frontend-developer .I will help you build websites your users will
                 love.</div>
 
             <a href="#Experience" class="arrow-2"><img src="./assets/images/arrow.png" alt="arrow" height="40"
@@ -80,8 +78,8 @@
         </section>
         <section id="Experience">
 
-            <h1 class="experience-h1">Experience</h1>
-            <div class="frontend-container">
+            <h1 class="experience-h1">Skill</h1>
+            <div class="frontend-container"  >
                 <h2 class="Frontend">Frontend Development</h2>
                 <article class="html-head">
                     <div class="html-experience">
@@ -107,28 +105,28 @@
         <section id="Projects">
             <h1 class="Projects">Projects</h1>
             <div class="projects-container">
-                <div class="project-1">
-                    <img src="./assets/images/project-1.png" alt="project-picture" class="project-img"
+                <div class="project-1"  >
+                    <img src="./assets/images/project-portfolio.jpg" alt="project-picture" class="project-img"
                         style="box-shadow: rgba(255, 0, 0, 0.5) 0px 0px 20px 0px;" height="300"  />
-                    <h2 class="project-h2">Project one</h2>
+                    <h2 class="project-h2">Project 1</h2>
                     <div class="button-container-project">
                     <button onclick="location.href='https://github.com/Kotti13/Portfolio'" class="github">Github</button>
                     <button onclick="location.href='https://kotti13.github.io/Portfolio/'" class="live-demo">Live demo</button>
                 </div>
                 </div>
                 <div class="project-2">
-                    <img src="./assets/images/project-2.png" alt="project-picture" class="project-img"
-                        style="box-shadow: rgba(255, 0, 0, 0.5) 0px 0px 20px 0px;" height="300" />
-                    <h2 class="project-h2">Project two</h2>
+                    <img src="./assets/images/project.jpg" alt="project-picture" class="project-img"
+                        style="box-shadow: rgba(255, 0, 0, 0.5) 0px 0px 20px 0px;" height="300" width="300" />
+                    <h2 class="project-h2">Project 2</h2>
                     <div class="button-container-project">
                     <button onclick="location.href='https://www.github.com/'" class="github">Github</button>
                     <button onclick="location.href='https://www.livedemo.com'" class="live-demo">Live demo</button>
                 </div>
                 </div>
                 <div class="project-3">
-                    <img src="./assets/images/project-3.png" alt="project-picture" class="project-img"
-                        style="box-shadow: rgba(255, 0, 0, 0.5) 0px 0px 20px 0px;" height="300" />
-                    <h2 class="project-h2">Project three</h2>
+                    <img src="./assets/images/project.jpg" alt="project-picture" class="project-img"
+                        style="box-shadow: rgba(255, 0, 0, 0.5) 0px 0px 20px 0px;" height="300"  width="300"/>
+                    <h2 class="project-h2">Project 3</h2>
                     <div class="button-container-project">
                     <button onclick="location.href='https://www.github.com/'" class="github">Github</button>
                     <button onclick="location.href='https://www.livedemo.com'" class="live-demo">Live demo</button>
@@ -151,7 +149,7 @@
                 </div>
                 <div class="contact-info-container">
                     <img src="./assets/images/linkedin.png" class="linkedin-icon" alt="LinkedIn icon" height="50" />
-                    <p class="linkedin"><a href="https://www.linkedin.com/in/kottai-samy-bb37a9228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+                    <p class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/kottai-samy-bb37a9228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
                 </div>
             </div>
         </section>
@@ -159,13 +157,6 @@
     </main>
 
 </body>
-<script>
-    const hamburgerMenu = document.getElementById('hamburger-menu');
-    const navigationBar = document.getElementById('navigation-bar');
 
-    hamburgerMenu.addEventListener('click', () => {
-        navigationBar.classList.toggle('active');
-    });
-</script>
 
 </html>
