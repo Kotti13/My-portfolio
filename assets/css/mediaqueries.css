@@ -190,10 +190,11 @@
     .project-h2{
         
         margin-top: 10px;
+        display: none;
     }
   
     .github, .live-demo {
-      
+      margin-top: 10%;
     }
 
     .button-container-project{
