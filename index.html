@@ -69,7 +69,7 @@
                         <img src="https://cdn-icons-png.freepik.com/256/3536/3536505.png" alt="LinkedIn" height="40" class="linkedin">
                     </a>
                     <a href="https://github.com/Kotti13" target="_blank">
-                        <img src="https://cdn-icons-png.freepik.com/256/3291/3291695.png" alt="GitHub" height="40" class="linkedin">
+                        <img src="https://cdn-icons-png.freepik.com/256/3291/3291695.png" alt="GitHub" id="github" height="40" class="linkedin">
                     </a>
                 </div>
             </div>
@@ -332,6 +332,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script >
         const button = document.getElementById('btn');
+        const github=document.getElementById('github')
         const icon = document.getElementById('btn-icon');
         const sections = [
             document.getElementById('profile'),
@@ -358,20 +359,25 @@
 
                 // Change icon to moon
                 icon.src = 'https://cdn-icons-png.flaticon.com/128/5043/5043094.png';
+                github.src='https://cdn-icons-png.freepik.com/256/3291/3291695.png';
+                
 
                 isNightMode = false;
             } else {
                 // Switch to Night Mode
                 body.style.backgroundColor = 'black';
                 body.style.color = 'white';
-
+                
                 sections.forEach(section => {
                     section.style.backgroundColor = 'black';
                     section.style.color = 'white';
+
                 });
 
                 // Change icon to sun
                 icon.src = 'https://cdn-icons-png.flaticon.com/128/4836/4836849.png';
+                github.src='https://cdn-icons-png.freepik.com/256/10090/10090288.png';
+
 
                 isNightMode = true;
             }
