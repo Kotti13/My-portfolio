@@ -27,30 +27,99 @@ body {
 
 
 /* lifeskills */
-
-.stars{
-    color: red;
-    font-size: 20px;
-
-}
-.life-skill-box h3{
-    font-size: 15px;
+/* Base Styles for Life Skills Section */
+#Lifeskill {
+    padding: 60px 20px; /* Add some padding around the section */
+    background-color: #f8f9fa;
 }
 
-.life-skill-box{
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.life-skill-box {
+    background-color: #ffffff; /* White background for contrast */
     text-align: center;
-    border-radius: 10px;
-   
-   
-   
-    /* height: 120%; */
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, 
+                rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                rgba(17, 17, 26, 0.1) 0px 16px 56px; /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
-.life-skill-box:hover{
-    transition: 0.7s (ease-out);
-    transform: translateY(-20px);
 
+.life-skill-box:hover {
+    transform: translateY(-10px); /* Move slightly upwards */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 40px; /* Enhance shadow on hover */
 }
+
+.life-skill-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.life-skill-box .stars {
+    font-size: 1.2rem;
+    color: #e74c3c; /* Red stars */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .life-skill-box {
+        padding: 15px; /* Reduce padding */
+    }
+
+    .life-skill-box h3 {
+        font-size: 1.3rem; /* Slightly smaller font for headings */
+    }
+
+    .life-skill-box .stars {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .life-skill-box {
+        padding: 12px; /* Compact padding for smaller screens */
+    }
+
+    .life-skill-box h3 {
+        font-size: 1.2rem;
+    }
+
+    .life-skill-box .stars {
+        font-size: 0.9rem;
+    }
+
+    .row.g-4 {
+        row-gap: 1.5rem; /* Adjust spacing between rows */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 0 0 100%; /* Full width for smaller screens */
+        max-width: 100%;
+    }
+
+    .life-skill-box {
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .life-skill-box h3 {
+        font-size: 1rem;
+    }
+
+    .life-skill-box .stars {
+        font-size: 0.8rem;
+    }
+}
+
 
 /* Navigation Styles */
 .navbar {
